@@ -1,4 +1,4 @@
-//process.env.YENV = 'production';
+/**_*/
 
 MAKE.decl('Arch', {
 
@@ -26,11 +26,6 @@ MAKE.decl('BundleNode', {
             'bemhtml.js',
             'js',
             'css',
-            'ie.css',
-            'ie6.css',
-            'ie7.css',
-            'ie8.css',
-            'ie9.css',
             'html'
         ];
     }
