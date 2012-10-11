@@ -1,0 +1,12 @@
+block button {
+
+    tag: 'span'
+
+    content: {
+        elem: 'text',
+        content: this.ctx.content
+    }
+
+    elem text, tag: 'i'
+
+}

@@ -36,6 +36,11 @@
                 ]
             },
             {
+                block: 'button',
+                mix: [{ block: 'product', elem: 'order-btn' }],
+                content: 'Заказать'
+            },
+            {
                 elem: 'info',
                 content: [
                     { block: 'para', content: 'Хорошо держит форму, не мнется.' },
