@@ -61,6 +61,11 @@
                     { elem: 'param', key: 'Ловкость', value: '+10' },
                     { elem: 'param', key: 'Крутость', value: '+100' }
                 ]
+            },
+            {
+                block: 'social',
+                mods: { type: 'fb' },
+                mix: [{ block: 'product', elem: 'social' }]
             }
         ]
     }
