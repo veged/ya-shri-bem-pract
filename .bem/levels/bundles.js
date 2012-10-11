@@ -40,6 +40,7 @@ exports.getBundleBuildLevels = function() {
         '../../bem-bl/blocks-common',
         '../../bem-bl/blocks-desktop',
         '../../bem-typo/typo/',
+        '../../b-socials/blocks',
         '../../blocks',
         '../../blocks-store'
         ]);

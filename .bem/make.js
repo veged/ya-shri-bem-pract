@@ -14,6 +14,11 @@ MAKE.decl('Arch', {
                 type: 'git',
                 url: 'git://github.com/narqo/bem-bl-pages.git',
                 treeish: 'bem-typo'
+            },
+            'b-socials': {
+                type: 'git',
+                url: 'https://bitbucket.org/vii/b-socials.git',
+                treeish: 'master'
             }
         };
 
