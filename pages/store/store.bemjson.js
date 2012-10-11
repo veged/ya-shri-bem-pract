@@ -31,7 +31,10 @@
                     'Наша цена:',
                     {
                         elem: 'price-val',
-                        content: '33&#160;700 руб.'
+                        content: [
+                            '33&#160;700',
+                            { block: 'cysign', mods: { type: 'rur' } }
+                        ]
                     }
                 ]
             },
