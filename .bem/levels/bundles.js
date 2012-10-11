@@ -24,7 +24,7 @@ exports.getTechs = function() {
 // Do not create any techs files during bundle creation by default
 exports.defaultTechs = [];
 
-//Various level configuration
+// Various level configuration
 exports.getConfig = function() {
 
     return extend({}, this.__base() || {}, {
@@ -39,7 +39,8 @@ exports.getBundleBuildLevels = function() {
     return this.resolvePaths([
         '../../bem-bl/blocks-common',
         '../../bem-bl/blocks-desktop',
-        '../../blocks'
+        '../../blocks',
+        '../../blocks-store'
         ]);
 
 };
