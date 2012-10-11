@@ -39,6 +39,7 @@ exports.getBundleBuildLevels = function() {
     return this.resolvePaths([
         '../../bem-bl/blocks-common',
         '../../bem-bl/blocks-desktop',
+        '../../bem-typo/typo/',
         '../../blocks',
         '../../blocks-store'
         ]);
