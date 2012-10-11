@@ -1,0 +1,48 @@
+block product {
+
+    content: [
+        { elem: 'title', content: this.ctx.title },
+        { elem: 'picture', content: this.ctx.image },
+        {
+            elem: 'container',
+            content: this.ctx.content
+        }
+    ]
+
+    elem picture, tag: ''
+
+    elem details {
+
+        tag: 'dl'
+
+        content: [
+            { elem: 'details-title', content: this.ctx.content },
+            { elem: 'params', content: this.ctx.params }
+        ]
+
+    }
+
+    elem details-title {
+
+        tag: 'dt'
+
+    }
+
+    elem params, tag: ''
+
+    elem param {
+
+        tag: 'dd'
+
+        content: [
+            { elem: 'param-key', content: this.ctx.key },
+            { elem: 'param-value', content: this.ctx.value }
+        ]
+
+    }
+
+    elem param-key, tag: 'span'
+
+    elem param-value, tag: 'span'
+
+}

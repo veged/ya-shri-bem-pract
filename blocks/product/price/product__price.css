@@ -1,0 +1,12 @@
+.product__price
+{
+    margin-bottom: 1.5em;
+}
+
+.product__price-val
+{
+    color: #390;
+
+    font-size: 24px;
+    line-height: 1.4em;
+}

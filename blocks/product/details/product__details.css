@@ -1,0 +1,45 @@
+.product__details
+{
+    margin: 1.5em 0;
+
+    max-width: 120px;
+}
+
+.product__details-title
+{
+    color: #606060;
+
+    display: block;
+
+    margin: 0 0 0.5em;
+}
+
+.product__param
+{
+    border-bottom: 1px dotted #ccc;
+
+    display: block;
+
+    margin: 0;
+
+    position: relative;
+}
+
+.product__param-key,
+.product__param-value
+{
+    background: #fff;
+
+    padding-right: 3px;
+
+    position: relative;
+    top: 2px;
+}
+
+.product__param-value
+{
+    padding-left: 3px;
+
+    position: absolute;
+    left: 100%;
+}

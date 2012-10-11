@@ -1,0 +1,9 @@
+block illustration, elem image {
+
+    tag: 'img'
+
+    attrs: {
+        src: this.ctx.src
+    }
+
+}
