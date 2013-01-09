@@ -1,15 +1,22 @@
 {
-  "author": "",
-  "name": "bem-project-bootstap",
-  "version": "0.0.0",
+  "name": "ya-shrii-pract",
+  "description": "BEM 101: Practice. Lecture source code",
+  "homepage": "http://events.yandex.ru/talks/406/",
+  "author": "Vladimir Varankin <varankinv@yandex-team.ru> (http://github.com/narqo)",
+  "keywords": [
+    "bem",
+    "shri"
+  ],
+  "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/narqo/ya-shrii-pract.git"
+  },
   "engines": {
-    "node": "0.6 | 0.7 | 0.8 | 0.9"
+    "node": "0.6 | 0.8 | 0.9"
   },
   "dependencies": {
-    "bem": "~0.5.14",
-    "ometajs": "~3.1.4",
-    "xjst": "~0.3.1",
-    "dom-js": "*"
+    "bem": "~0.5.14"
   },
   "devDependencies": {},
   "optionalDependencies": {},
