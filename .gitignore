@@ -1,8 +1,13 @@
 bem-bl
+bem-typo
+b-socials
 node_modules
 .DS_Store
 .idea
 .svn
-pages-desktop/*/*.*
-!pages-desktop/*/*.bemjson.js
-!pages-desktop/.bem/*
+.project
+.settings
+.bem/cache
+pages/*/*.*
+!pages/*/*.bemjson.js
+!pages/.bem/*
