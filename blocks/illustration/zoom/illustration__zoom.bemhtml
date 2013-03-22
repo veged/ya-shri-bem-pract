@@ -1,5 +1,5 @@
 block illustration, elem zoom {
 
-    tag: span
+    tag: 'span'
 
 }
