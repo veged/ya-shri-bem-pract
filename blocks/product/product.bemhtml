@@ -5,7 +5,7 @@ block product {
         { elem: 'picture', content: this.ctx.image },
         {
             elem: 'container',
-            content: this.ctx.content
+            content: applyNext()
         }
     ]
 
